@@ -8,5 +8,7 @@ services:
       context: .
       args:
         LOOPFORGE_BUILD_JOBS: ${LOOPFORGE_BUILD_JOBS:-}
+        GOPROXY: ${GOPROXY:-}
+        NPM_REGISTRY: ${NPM_REGISTRY:-}
     environment:
       AGENTFLOW_ISOLATED_IMAGE: loopforge-platform:local

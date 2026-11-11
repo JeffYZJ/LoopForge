@@ -1,0 +1,9 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://model-gateway.gwm.cn",
+    "ANTHROPIC_AUTH_TOKEN": "sk-gWSE4IdFWR7w0CrK3NJ38X5jkCOLRAbYVKYTSIVJniaGq1i5",
+    "ANTHROPIC_MODEL": "glm-5.3-flashx",
+    "ANTHROPIC_SMALL_FAST_MODEL": "glm-5.3-flashx",
+    "API_TIMEOUT_MS": "600000"
+  }
+}
